@@ -1,0 +1,12 @@
+on-notify=exec mpv /home/kleos/Музыка/truba-upala.mp3 --volume=20
+on-button-left=exec mpv /home/kleos/Музыка/truba-upala.mp3 --volume=20 & makoctl invoke -n "$id" default && makoctl dismiss -n "$id"
+on-button-right=exec mpv /home/kleos/Музыка/truba-upala.mp3 --volume=20 & makoctl dismiss -n "$id"
+background-color=#000000
+border-radius=0
+border-color=#ffffff
+border-size=1
+default-timeout=30000
+font=JetBrainMonoNerdFont-Regular.ttf
+
+[urgency=high]
+border-color=#ed0261
